@@ -1,0 +1,12 @@
+{
+  "transform": {
+    "^.+\\.[j|t]sx?$": "ts-jest"
+  },
+  "testMatch": [
+    "<rootDir>/src/**/__tests__/*.{spec,test}.{js,jsx,ts,tsx}"
+  ],
+  "rootDir": "./",
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+  "automock": false,
+  "verbose": false
+}
